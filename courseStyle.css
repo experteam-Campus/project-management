@@ -50,7 +50,51 @@ a,
 
 /* HTML TEXT TITLE */
 
-.textHeadline {}
+.textHeadline {
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    margin: 50px;
+    padding: 10px;
+}
+
+.textHeadline:before,
+.textHeadline:after,
+.textHeadline>:first-child:before,
+.textHeadline>:first-child:after {
+    position: absolute;
+    content: ' ';
+    width: 23px;
+    height: 24px;
+    border-color: #24dceaff;
+    /* or whatever colour */
+    border-style: solid;
+    /* or whatever style */
+}
+
+.textHeadline:before {
+    top: 17px;
+    left: -6px;
+    border-width: 0px 0px 5px 5px;
+}
+
+.textHeadline:after {
+    top: 3px;
+    right: -4px;
+    border-width: 5px 5px 0 0;
+}
+
+.textHeadline>:first-child:before {
+    bottom: 0;
+    right: 0;
+    border-width: 0 1px 1px 0
+}
+
+.textHeadline>:first-child:after {
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 1px 1px
+}
 
 
 /* HTML TEXT DIV */
@@ -61,7 +105,7 @@ a,
 /* CENTER EVERY IMG INSIDE textDiv */
 
 .textDiv img {
-    /*     display: block;
+    display: block;
     margin-left: auto !important;
-    margin-right: auto !important; */
+    margin-right: auto !important;
 }
