@@ -48,10 +48,11 @@ a,
 }
 
 
-/* HTML TEXT TITLE */
+/*  TITLES */
 
 .textHeadline,
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2 {
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2,
+.hd.hd-3 {
     font-size: 1.5em !important;
     position: relative;
     width: fit-content;
@@ -68,7 +69,11 @@ a,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2:before,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2:after,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2>:first-child:before,
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2>:first-child:after {
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2>:first-child:after,
+.hd.hd-3:before,
+.hd.hd-3:after,
+.hd.hd-3>:first-child:before,
+.hd.hd-3>:first-child:after {
     position: absolute;
     content: ' ';
     width: 20px;
@@ -80,28 +85,32 @@ a,
 }
 
 .textHeadline:before,
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2:before {
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2:before,
+.hd.hd-3:before {
     top: 22px;
     left: -1px;
     border-width: 0px 0px 5px 5px;
 }
 
 .textHeadline:after,
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2::after {
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2::after,
+.hd.hd-3:after {
     top: 0px;
     right: -1px;
     border-width: 5px 5px 0 0;
 }
 
 .textHeadline>:first-child:before,
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2>:first-child:before {
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2>:first-child:before,
+.hd.hd-3>:first-child:before {
     bottom: 0;
     right: 0;
     border-width: 0 1px 1px 0
 }
 
 .textHeadline>:first-child:after,
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2>:first-child:after {
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2>:first-child:after,
+.hd.hd-3>:first-child:after {
     bottom: 0;
     left: 0;
     border-width: 0 0 1px 1px
@@ -119,4 +128,59 @@ a,
     display: block;
     margin-left: auto !important;
     margin-right: auto !important;
+}
+
+
+/* big blue rectangle */
+
+main#main:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 70%;
+    height: 90%;
+    top: 263px;
+    left: 40px;
+    background-color: #00517d;
+    /* box-shadow: -50px 120px 4px 10px #555; */
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 1.6deg);
+    z-index: 0;
+}
+
+
+/* cancel background transparency */
+
+.xblock.xblock-student_view.xblock-student_view-sequential.xmodule_display.xmodule_SequenceModule.xblock-initialized {
+    position: relative;
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color: transparent;
+}
+
+
+/* white background to all content */
+
+.course-wrapper .course-content .vert-mod,
+.course-wrapper .courseware-results-wrapper .vert-mod {
+    padding: 0px;
+    margin: none !important;
+    line-height: 1.4;
+    list-style: none;
+    box-shadow: 0px -3px 9px -1px rgb(0 0 0 / 5%);
+    width: 94%;
+    padding: 0px 25px 0px 25px;
+}
+
+
+/* cancel the line above the cintent */
+
+.course-wrapper .course-content .vert-mod .vert>.xblock-student_view,
+.course-wrapper .courseware-results-wrapper .vert-mod .vert>.xblock-student_view {
+    border-bottom: none;
+    margin-bottom: 15px;
+    padding: 0 0 15px;
 }
