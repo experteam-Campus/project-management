@@ -16,7 +16,7 @@ h5,
 h6,
 p,
 label {
-    text-align: center;
+    text-align: right;
     font-family: 'Assistant', sans-serif;
 }
 
@@ -61,7 +61,7 @@ a,
 /* CENTER EVERY IMG INSIDE textDiv */
 
 .textDiv img {
-    display: block;
+    /*     display: block;
     margin-left: auto !important;
-    margin-right: auto !important;
+    margin-right: auto !important; */
 }
