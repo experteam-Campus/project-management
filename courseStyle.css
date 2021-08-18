@@ -50,7 +50,8 @@ a,
 
 /* HTML TEXT TITLE */
 
-.textHeadline {
+.textHeadline,
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2 {
     font-size: 1.5em !important;
     position: relative;
     width: fit-content;
@@ -63,7 +64,11 @@ a,
 .textHeadline:before,
 .textHeadline:after,
 .textHeadline>:first-child:before,
-.textHeadline>:first-child:after {
+.textHeadline>:first-child:after,
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2:before,
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2:after,
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2>:first-child:before,
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2>:first-child:after {
     position: absolute;
     content: ' ';
     width: 20px;
@@ -74,25 +79,29 @@ a,
     /* or whatever style */
 }
 
-.textHeadline:before {
+.textHeadline:before,
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2:before {
     top: 22px;
     left: -1px;
     border-width: 0px 0px 5px 5px;
 }
 
-.textHeadline:after {
+.textHeadline:after,
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2::after {
     top: 0px;
     right: -1px;
     border-width: 5px 5px 0 0;
 }
 
-.textHeadline>:first-child:before {
+.textHeadline>:first-child:before,
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2>:first-child:before {
     bottom: 0;
     right: 0;
     border-width: 0 1px 1px 0
 }
 
-.textHeadline>:first-child:after {
+.textHeadline>:first-child:after,
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2>:first-child:after {
     bottom: 0;
     left: 0;
     border-width: 0 0 1px 1px
