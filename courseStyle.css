@@ -1,0 +1,67 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400&display=swap');
+:root {
+    --regular-size: 18px;
+    font-family: 'Assistant', sans-serif;
+}
+
+#main,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+    text-align: right;
+    font-family: 'Assistant', sans-serif;
+}
+
+
+/*text color */
+
+.copy-lead a,
+.copy-large a,
+.copy-base a,
+.alert-copy a,
+.alert-copy-with-title a,
+.copy-meta a,
+.table caption a,
+.table-simplified caption a,
+.copy-micro a,
+.wrapper-footer footer#footer-openedx a,
+a,
+.link,
+.btn-link,
+.table-sortable .sortable .action-sort {
+    color: black;
+}
+
+
+/* course component - backgrounds and borders */
+
+.container>div {
+    border: none;
+}
+
+
+/* HTML TEXT TITLE */
+
+.textHeadline {}
+
+
+/* HTML TEXT DIV */
+
+.textDiv {}
+
+
+/* CENTER EVERY IMG INSIDE textDiv */
+
+.textDiv img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
