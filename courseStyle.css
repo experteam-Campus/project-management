@@ -1,6 +1,6 @@
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
 :root {
     --regular-size: 18px;
     font-family: 'Assistant', sans-serif;
@@ -51,11 +51,13 @@ a,
 /* HTML TEXT TITLE */
 
 .textHeadline {
+    font-size: 1.5em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
-    margin: 50px;
-    padding: 10px;
+    /* margin: 50px; */
+    padding: 6px 14px;
+    font-weight: 700;
 }
 
 .textHeadline:before,
@@ -64,8 +66,8 @@ a,
 .textHeadline>:first-child:after {
     position: absolute;
     content: ' ';
-    width: 23px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     border-color: #24dceaff;
     /* or whatever colour */
     border-style: solid;
@@ -73,14 +75,14 @@ a,
 }
 
 .textHeadline:before {
-    top: 17px;
-    left: -6px;
+    top: 22px;
+    left: -1px;
     border-width: 0px 0px 5px 5px;
 }
 
 .textHeadline:after {
-    top: 3px;
-    right: -4px;
+    top: 0px;
+    right: -1px;
     border-width: 5px 5px 0 0;
 }
 
