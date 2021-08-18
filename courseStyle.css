@@ -133,7 +133,11 @@ a,
 
 /* big blue rectangle */
 
-main#main:before {
+
+/* נסיון כושל לשים ריבוע כחול מסביב לכל העמוד */
+
+
+/* main#main:before {
     position: absolute;
     content: "";
     display: block;
@@ -142,33 +146,34 @@ main#main:before {
     top: 258px;
     left: 29px;
     background-color: #00517d;
-    /* box-shadow: -50px 120px 4px 10px #555; */
+    
     -webkit-transform: rotate( 10deg);
     -moz-transform: rotate(10deg);
     -o-transform: rotate(10deg);
     -ms-transform: rotate(10deg);
     transform: rotate( 1.9deg);
     z-index: 0;
-}
+} */
 
 
 /* cancel background transparency */
 
-.xblock.xblock-student_view.xblock-student_view-sequential.xmodule_display.xmodule_SequenceModule.xblock-initialized {
+
+/* .xblock.xblock-student_view.xblock-student_view-sequential.xmodule_display.xmodule_SequenceModule.xblock-initialized {
     position: relative;
-    /* width: 100px; */
-    /* height: 100px; */
     background-color: transparent;
-}
+} */
 
 
 /* white background to all content */
 
-.vert-mod {
-    background-color: white;
-}
 
-.course-wrapper .course-content .vert-mod,
+/* .vert-mod {
+    background-color: white;
+} */
+
+
+/* .course-wrapper .course-content .vert-mod,
 .course-wrapper .courseware-results-wrapper .vert-mod {
     padding: 0px;
     margin: none !important;
@@ -177,7 +182,7 @@ main#main:before {
     box-shadow: 0px -3px 9px -1px rgb(0 0 0 / 5%);
     width: 94%;
     padding: 0px 25px 0px 25px;
-}
+} */
 
 
 /* cancel the line above the cintent */
@@ -187,4 +192,30 @@ main#main:before {
     border-bottom: none;
     margin-bottom: 15px;
     padding: 0 0 15px;
+}
+
+.problems-wrapper {
+    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    background-color: #00517d;
+    padding: 3%;
+    position: relative;
+    z-index: 1;
+}
+
+.problems-wrapper:before {
+    position: absolute;
+    content: "";
+    /* display: block; */
+    width: 99%;
+    height: 100%;
+    top: 0px;
+    left: 3px;
+    /* box-shadow: -50px 120px 4px 10px #555; */
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 1.9deg);
+    z-index: -1;
+    background-color: #F7F7F7;
 }
