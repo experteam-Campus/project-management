@@ -50,6 +50,83 @@ a,
 
 /*  TITLES */
 
+
+/* unit title */
+
+.h2.hd-2,
+.xblock .xblock h2 {
+    font-size: 1.5em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    /* margin: 50px; */
+    padding: 6px 14px;
+    font-weight: 700;
+}
+
+.h2.hd-2,
+.xblock .xblock h2:before,
+.h2.hd-2,
+.xblock .xblock h2:after,
+.h2.hd-2,
+.xblock .xblock h2>:first-child:before,
+.h2.hd-2,
+.xblock .xblock h2>:first-child:after {
+    position: absolute;
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    border-color: #24dceaff;
+    /* or whatever colour */
+    border-style: solid;
+    /* or whatever style */
+}
+
+.h2.hd-2,
+.xblock .xblock h2:before {
+    top: 22px;
+    left: -1px;
+    border-width: 0px 0px 5px 5px;
+}
+
+.h2.hd-2,
+.xblock .xblock h2:after {
+    top: 0px;
+    right: -1px;
+    border-width: 5px 5px 0 0;
+}
+
+.h2.hd-2,
+.xblock .xblock h2>:first-child:before {
+    bottom: 0;
+    right: 0;
+    border-width: 0 1px 1px 0
+}
+
+.h2.hd-2,
+.xblock .xblock h2>:first-child:after {
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 1px 1px
+}
+
+
+/* אופציה של כותרת עם צל ובלי פינות */
+
+
+/* .textHeadline, .xmodule_display.xmodule_VideoModule h3.hd.hd-2, .hd.hd-3 {
+    font-size: 1.5em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+  
+    padding: 13px 26px;
+    font-weight: 700;
+    box-shadow: 2px 0px 9px -2px rgb(0 0 0 / 9%);
+    background-color: white;
+    bottom: 45px;
+} */
+
 .textHeadline,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2,
 .hd.hd-3 {
@@ -203,6 +280,24 @@ a,
 }
 
 .problems-wrapper:before {
+    position: absolute;
+    content: "";
+    /* display: block; */
+    width: 99%;
+    height: 100%;
+    top: 0px;
+    left: 3px;
+    /* box-shadow: -50px 120px 4px 10px #555; */
+    -webkit-transform: rotate( 10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate( 1.9deg);
+    z-index: -1;
+    background-color: #F7F7F7;
+}
+
+.vert-mod .vert.vert-1:nth-child(odd) .xblock.xblock-student_view.xblock-student_view-problem.xmodule_display.xmodule_CapaModule.xblock-initialized .problems-wrapper:before {
     position: absolute;
     content: "";
     /* display: block; */
