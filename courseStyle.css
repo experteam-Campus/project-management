@@ -480,3 +480,8 @@ body.view-in-course .static_tab_wrapper {
     font-size: 1em;
     line-height: 0em;
 }
+
+.course-index .accordion .course-navigation .button-chapter {
+    box-shadow: none;
+    background-color: white;
+}
