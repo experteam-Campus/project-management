@@ -31,6 +31,16 @@ span,
 }
 
 
+/* P PREFERENCES */
+
+.xmodule_display.xmodule_HtmlModule p {
+    margin-bottom: 1.416em;
+    font-size: 1.1em;
+    line-height: 1.6em !important;
+    color: #3c3c3c;
+}
+
+
 /*text color */
 
 .copy-lead a,
@@ -159,7 +169,8 @@ a,
 /* VIDEO AND REGULAR TEXT HEADLINE */
 
 .textHeadline,
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2 {
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2,
+.discussion-module-title {
     font-size: 1.5em !important;
     position: relative;
     width: fit-content;
@@ -178,7 +189,8 @@ a,
 }
 
 .textHeadline:before,
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2::before {
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2::before,
+.discussion-module-title:before {
     position: absolute;
     content: "";
     /* display: block; */
@@ -385,6 +397,26 @@ body.view-in-course .static_tab_wrapper {
 }
 
 
+/* problems color in studio */
+
+.wrapper-xblock .xblock-render .xblock .xblock-render .xblock .hd-3 {
+    margin-bottom: 10px;
+    font-size: 1.35em;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: white;
+}
+
+
+/* DISCUSSION TOPIC */
+
+.discussion-module .inline-discussion-topic {
+    width: 100%;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
 /* COLORS */
 
 
@@ -402,4 +434,49 @@ body.view-in-course .static_tab_wrapper {
     color: #24dceaff;
     font-size: 1.4em;
     line-height: 0.8em;
+}
+
+
+/* TOP MENU */
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button:active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.focused,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+    border-bottom: 3px solid #24DCEA;
+    padding-top: 2px;
+}
+
+
+/* PROBLEMS BUTTON */
+
+.btn-brand,
+.modal .inner-wrapper form .submit input[type="submit"],
+.leanModal_box .inner-wrapper form .submit input[type="submit"] {
+    border-color: #24DCEA;
+    background: #24DCEA;
+    color: #00517d;
+}
+
+
+/* RIGHT MENU */
+
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+    position: relative;
+    display: block;
+    padding: 18px 10px 1px 10px;
+    border-radius: 5px;
+    font-family: "Open Sans", Verdana, Geneva, sans-serif, sans-serif;
+    color: #3c3c3c;
+}
+
+.btn-link,
+.proctored_exam_status .exam-timer .exam-button-turn-in-exam,
+.course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
+    font-size: 1em;
+    line-height: 0em;
 }
