@@ -482,6 +482,6 @@ body.view-in-course .static_tab_wrapper {
 }
 
 .course-index .accordion .course-navigation .button-chapter {
-    box-shadow: none;
-    background-color: white;
+    box-shadow: none !important;
+    background-color: white !important;
 }
