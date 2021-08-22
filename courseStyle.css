@@ -47,6 +47,22 @@ a,
     border: none;
 }
 
+.course-index {
+    transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s;
+    border-left: none;
+}
+
+
+/* PADDING AND MARGIN BETWEEN COMPONENTS */
+
+.course-wrapper .course-content .vert-mod .vert>.xblock-student_view,
+.course-wrapper .courseware-results-wrapper .vert-mod .vert>.xblock-student_view {
+    border-bottom: none;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    padding: 0 0 17px;
+}
+
 
 /*  TITLES */
 
@@ -112,21 +128,7 @@ a,
 }
 
 
-/* אופציה של כותרת עם צל ובלי פינות */
-
-
-/* .textHeadline, .xmodule_display.xmodule_VideoModule h3.hd.hd-2, .hd.hd-3 {
-    font-size: 1.5em !important;
-    position: relative;
-    width: fit-content;
-    font-family: 'Assistant', sans-serif;
-  
-    padding: 13px 26px;
-    font-weight: 700;
-    box-shadow: 2px 0px 9px -2px rgb(0 0 0 / 9%);
-    background-color: white;
-    bottom: 45px;
-} */
+/* VIDEO AND REGULAR TEXT HEADLINE */
 
 .textHeadline,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2 {
@@ -134,13 +136,17 @@ a,
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
-    /* margin: 50px; */
+    margin: 10px 11px 10px 10px;
     padding: 6px 14px;
-    font-weight: 700;
     background-color: #00517d;
     color: white;
-    /* top: -46px; */
-    margin-top: -47px;
+    font-weight: 700 !important;
+    display: inline;
+    z-index: 1;
+}
+
+.textHeadline {
+    top: -25px
 }
 
 .textHeadline:before,
@@ -162,6 +168,9 @@ a,
     background-color: #24dceaff;
     box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
 }
+
+
+/* PROBLEMS HEADLINES */
 
 .hd.hd-3 {
     font-size: 1.5em !important;
