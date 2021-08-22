@@ -129,7 +129,7 @@ a,
 } */
 
 .textHeadline,
-.hd.hd-3 {
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2 {
     font-size: 1.5em !important;
     position: relative;
     width: fit-content;
@@ -144,7 +144,7 @@ a,
 }
 
 .textHeadline:before,
-.hd.hd-3:before {
+.xmodule_display.xmodule_VideoModule h3.hd.hd-2::before {
     position: absolute;
     content: "";
     /* display: block; */
@@ -163,7 +163,7 @@ a,
     box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
 }
 
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2 {
+.hd.hd-3 {
     font-size: 1.5em !important;
     position: relative;
     width: fit-content;
@@ -177,7 +177,7 @@ a,
     margin-top: -47px;
 }
 
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2::before {
+.hd.hd-3:before {
     position: absolute;
     content: "";
     /* display: block; */
