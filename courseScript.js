@@ -10,7 +10,7 @@ $(document).ready(function() {
     }
 
 
-    if ($('.field-input[type="checkbox"]').prop("checked")) {
+    if ($('.xmodule_display.xmodule_CapaModule div.problem .choicegroup input[type="checkbox"]').prop("checked")) {
 
         console.log("checkbox checked")
         $(this).parent().css({
