@@ -36,7 +36,7 @@ $(document).ready(function() {
             $(this).parent().css({
                 "background-color": "#24DCEA",
                 "border": "2px solid #00517D",
-                "color": "white",
+                "color": "black",
 
             })
 
