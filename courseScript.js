@@ -102,3 +102,5 @@ function scrollIndicator() {
     var scrolled = (winScroll / height) * 100;
     document.getElementById("scrollIndicatorBar").style.width = scrolled + "%";
 }
+
+console.log("hello");
