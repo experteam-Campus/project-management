@@ -1,26 +1,6 @@
 $(document).ready(function() {
 
-    /*     if ($('.choicegroup.capa_inputtype .field-input[type="radio"]').prop("checked")) {
-            console.log("radio checked")
-            $(this).parent().css({
-                "background-color": "#24DCEA",
-                "border": "2px solid #00517D",
-                "color": "black",
-            })
-        }
 
-
-        if ($('.xmodule_display.xmodule_CapaModule div.problem .choicegroup input[type="checkbox"]').prop("checked")) {
-
-            console.log("checkbox checked")
-            $(this).parent().css({
-                "background-color": "#24DCEA",
-                "border": "2px solid #00517D",
-                "color": "black",
-
-            })
-        }
-     */
 
     $('.choicegroup.capa_inputtype .field-input[type="radio"]').change(function() {
 
@@ -126,3 +106,26 @@ function scrollIndicator() {
 }
 
 console.log("hello");
+
+
+/*     if ($('.choicegroup.capa_inputtype .field-input[type="radio"]').prop("checked")) {
+           console.log("radio checked")
+           $(this).parent().css({
+               "background-color": "#24DCEA",
+               "border": "2px solid #00517D",
+               "color": "black",
+           })
+       }
+
+
+       if ($('.xmodule_display.xmodule_CapaModule div.problem .choicegroup input[type="checkbox"]').prop("checked")) {
+
+           console.log("checkbox checked")
+           $(this).parent().css({
+               "background-color": "#24DCEA",
+               "border": "2px solid #00517D",
+               "color": "black",
+
+           })
+       }
+    */
