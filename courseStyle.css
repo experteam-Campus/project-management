@@ -537,3 +537,51 @@ body.view-in-course .static_tab_wrapper {
     background: #24DCEA;
     width: 0%;
 }
+
+
+/*NEXT BUTTON ANIMATION*/
+
+.sequence-nav-button.button-next {
+    animation-name: pulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    -webkit-animation-delay: 3s;
+    -webkit-animation: pulse 4s infinite;
+    -moz-animation: pulse 3s infinite;
+    -o-animation: pulse 3s infinite;
+    animation: pulse 3s infinite;
+    background-color: #24DCEA !important;
+    color: white;
+}
+
+
+/* Safari 4.0 - 8.0 */
+
+@-webkit-keyframes pulse {
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    40% {
+        box-shadow: 0 0 0 0 #24DCEA;
+    }
+    70% {
+        box-shadow: 0 0 0 8px rgba(233, 68, 36, 0);
+    }
+}
+
+
+/* Standard syntax */
+
+@keyframes pulse {
+    20% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    30% {
+        box-shadow: 0 0 0 0 rgb(233 68 36/ 90%);
+    }
+    70% {
+        box-shadow: 0 0 0 8px rgb(233 68 36 / 0%);
+    }
+}
