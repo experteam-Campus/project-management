@@ -272,6 +272,16 @@ body.view-in-course .static_tab_wrapper {
     margin-right: auto !important;
 }
 
+.textDiv img.imgRight {
+    display: block;
+    margin-left: auto !important;
+}
+
+.textDiv img.imgLeft {
+    display: block;
+    margin-right: auto !important;
+}
+
 
 /* big blue rectangle */
 
