@@ -496,3 +496,18 @@ body.view-in-course .static_tab_wrapper {
     box-shadow: none !important;
     background-color: white !important;
 }
+
+.scrollIndicator {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    z-index: 100 !important;
+    width: 100%;
+    background-color: gainsboro;
+}
+
+.progress-barscrollIndicator {
+    height: 10px;
+    background: #FF4F4F;
+    width: 0%;
+}
