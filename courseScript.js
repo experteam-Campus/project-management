@@ -64,7 +64,7 @@ $(document).ready(function() {
 });
 
 
-var slideIndex = 1;
+/* var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -92,9 +92,9 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
     captionText.innerHTML = dots[slideIndex - 1].alt;
-}
+} */
 
-window.onscroll = function() { myFunction() };
+window.onscroll = function() { scrollIndicator() };
 
 function scrollIndicator() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
