@@ -562,10 +562,10 @@ body.view-in-course .static_tab_wrapper {
         opacity: 1;
     }
     40% {
-        box-shadow: 0 0 0 0 #24DCEA;
+        box-shadow: 0 0 0 0 #24ddeada;
     }
     70% {
-        box-shadow: 0 0 0 8px rgba(233, 68, 36, 0);
+        box-shadow: 0 0 0 8px #24ddea00;
     }
 }
 
@@ -578,9 +578,9 @@ body.view-in-course .static_tab_wrapper {
         opacity: 1;
     }
     30% {
-        box-shadow: 0 0 0 0 rgb(233 68 36/ 90%);
+        box-shadow: 0 0 0 0 #24ddeada;
     }
     70% {
-        box-shadow: 0 0 0 8px rgb(233 68 36 / 0%);
+        box-shadow: 0 0 0 8px #24ddea00);
     }
 }
