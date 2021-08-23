@@ -419,6 +419,27 @@ body.view-in-course .static_tab_wrapper {
 }
 
 
+/* LABELS DESIGN */
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label:hover,
+.xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label:hover,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label:hover,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label:hover {
+    border: 2px solid #24DCEA;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
+    border-radius: 9px;
+}
+
+.xmodule_display.xmodule_CapaModule div.problem .choicegroup label,
+.xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label,
+.xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label {
+    border: 2px solid #00517D;
+}
+
+
 /* DISCUSSION TOPIC */
 
 .discussion-module .inline-discussion-topic {
