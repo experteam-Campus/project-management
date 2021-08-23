@@ -55,7 +55,7 @@ $(document).ready(function() {
             })
 
             $("label").hover(function() {
-                $(this).css({ "border": "2px solid #FF4F4F" });
+                $(this).css({ "border": "2px solid #24DCEA" });
             }, function() {
                 $(this).css({ "border": "2px solid #00517D" });
             });
