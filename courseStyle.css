@@ -407,6 +407,11 @@ body.view-in-course .static_tab_wrapper {
     background-color: #F7F7F7;
 }
 
+.problem-group-label {
+    background-color: transparent !important;
+    border: none !important;
+}
+
 
 /* problems color in studio */
 
