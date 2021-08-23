@@ -7,20 +7,20 @@ $(document).ready(function() {
             $("label").css({
                 "background-color": "white",
                 "color": "black",
-                "border": "2px solid black"
+                "border": "2px solid #00517D"
             })
 
 
             $(this).parent().css({
-                "background-color": "#FF4F4F",
-                "border": "2px solid black",
+                "background-color": "#24DCEA",
+                "border": "2px solid #00517D",
                 "color": "white",
             })
 
             $("label").hover(function() {
-                $(this).css({ "border": "2px solid #FF4F4F" });
+                $(this).css({ "border": "2px solid #24DCEA" });
             }, function() {
-                $(this).css({ "border": "2px solid black" });
+                $(this).css({ "border": "2px solid #00517D" });
             });
 
 
@@ -34,16 +34,16 @@ $(document).ready(function() {
             console.log("line 17 - checked")
 
             $(this).parent().css({
-                "background-color": "#FF4F4F",
-                "border": "2px solid black",
+                "background-color": "#24DCEA",
+                "border": "2px solid #00517D",
                 "color": "white",
 
             })
 
             $("label").hover(function() {
-                $(this).css({ "border": "2px solid #FF4F4F" });
+                $(this).css({ "border": "2px solid #24DCEA" });
             }, function() {
-                $(this).css({ "border": "2px solid black" });
+                $(this).css({ "border": "2px solid #00517D" });
             });
 
 
@@ -51,13 +51,13 @@ $(document).ready(function() {
             $(this).parent().css({
                 "background-color": "white",
                 "color": "black",
-                "border": "2px solid black"
+                "border": "2px solid #00517D"
             })
 
             $("label").hover(function() {
                 $(this).css({ "border": "2px solid #FF4F4F" });
             }, function() {
-                $(this).css({ "border": "2px solid black" });
+                $(this).css({ "border": "2px solid #00517D" });
             });
         }
     });
