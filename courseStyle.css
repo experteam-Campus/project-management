@@ -196,11 +196,12 @@ a,
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
-    margin: 10px 11px 10px 10px;
     padding: 6px 14px;
-    background-color: #00517d;
+    font-weight: 700;
+    background-color: #142654;
     color: white;
-    font-weight: 700 !important;
+    margin-top: -47px;
+    border-radius: 10px;
     display: inline;
     z-index: 1;
 }
@@ -212,22 +213,17 @@ a,
 .textHeadline:before,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2::before,
 .discussion-module-title:before {
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
     position: absolute;
     content: "";
-    /* display: block; */
     width: 101%;
     height: 100%;
-    top: 0px;
-    left: 3px;
-    /* box-shadow: -50px 120px 4px 10px #555; */
-    -webkit-transform: rotate( 10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate( 4deg);
-    z-index: -1;
-    background-color: #fcc02eff;
-    box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
+    top: -3px;
+    left: 1px;
+    transform: rotate(2.5deg);
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
 }
 
 
@@ -292,8 +288,8 @@ a,
     height: 100%;
     top: -2px;
     left: 0px;
-    transform: rotate( 4deg);
-    z-index: -1;
+    transform: rotate( 2.5deg);
+    z-index: 0;
     box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
     border: 2px solid #fcc02eff;
     border-radius: 7px;
@@ -494,7 +490,7 @@ body.view-in-course .static_tab_wrapper {
 .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label,
 .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label,
 .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label {
-    border: 2px solid #00517D;
+    border: 2px solid #142654;
 }
 
 
@@ -618,7 +614,7 @@ body.view-in-course .static_tab_wrapper {
         box-shadow: 0 0 0 0 rgba(252, 194, 46, 0.863);
     }
     70% {
-        box-shadow: 0 0 0 8px #24ddea00;
+        box-shadow: 0 0 0 8px #e7ea2400;
     }
 }
 
@@ -634,6 +630,6 @@ body.view-in-course .static_tab_wrapper {
         box-shadow: 0 0 0 0 rgba(252, 194, 46, 0.849);
     }
     70% {
-        box-shadow: 0 0 0 8px #24ddea00;
+        box-shadow: 0 0 0 8px #eae72400;
     }
 }
