@@ -107,17 +107,38 @@ a,
 
 /* unit title */
 
-.h2.hd-2,
+
+/* OLD */
+
+
+/* .h2.hd-2,
 .xblock .xblock h2 {
     font-size: 2em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
-    /* margin: 50px; */
+  
     padding: 6px 20px 6px 20px;
     font-weight: 700;
     height: 60px;
     color: #00517d;
+}
+ */
+
+
+/* NEW */
+
+.h2.hd-2,
+.xblock .xblock h2 {
+    font-size: 2em !important;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 20px 6px 20px;
+    font-weight: 700;
+    color: #142654;
+    background: linear-gradient(90deg, rgba(254, 218, 44, 1) 0%, rgba(252, 192, 46, 1) 100%);
+    height: 80px;
+    padding-top: 15px;
+    border-radius: 20px;
 }
 
 .h2.hd-2,
@@ -132,7 +153,7 @@ a,
     content: ' ';
     width: 20px;
     height: 20px;
-    border-color: #24dceaff;
+    border-color: #fcc02eff;
     /* or whatever colour */
     border-style: solid;
     /* or whatever style */
@@ -206,25 +227,45 @@ a,
     -ms-transform: rotate(10deg);
     transform: rotate( 4deg);
     z-index: -1;
-    background-color: #24dceaff;
+    background-color: #fcc02eff;
     box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
 }
 
 
 /* PROBLEMS HEADLINES */
 
+
+/* OLD */
+
+
+/* .hd.hd-3 {
+    font-size: 1.5em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+
+    padding: 6px 14px;
+    font-weight: 700;
+    background-color: #00517d;
+    color: white;
+ 
+    margin-top: -47px;
+} */
+
+
+/* NEW */
+
 .hd.hd-3 {
     font-size: 1.5em !important;
     position: relative;
     width: fit-content;
     font-family: 'Assistant', sans-serif;
-    /* margin: 50px; */
     padding: 6px 14px;
     font-weight: 700;
-    background-color: #00517d;
+    background-color: #142654;
     color: white;
-    /* top: -46px; */
     margin-top: -47px;
+    border-radius: 10px;
 }
 
 .hd.hd-3:before {
@@ -242,7 +283,7 @@ a,
     -ms-transform: rotate(10deg);
     transform: rotate( 4deg);
     z-index: -1;
-    background-color: #24dceaff;
+    background-color: #fcc02eff;
     box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
 }
 
@@ -430,7 +471,7 @@ body.view-in-course .static_tab_wrapper {
 .xmodule_display.xmodule_CapaModule div.problem .choicetextgroup label:hover,
 .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicegroup label:hover,
 .xmodule_display.xmodule_ConditionalModule div.problem .xmodule_display.xmodule_CapaModule .choicetextgroup label:hover {
-    border: 2px solid #24DCEA;
+    border: 2px solid #fcc02e;
 }
 
 .xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
@@ -461,14 +502,14 @@ body.view-in-course .static_tab_wrapper {
 
 .fa-caret-down:before {
     content: "\f0d7";
-    color: #24dceaff;
+    color: #fcc02eff;
     font-size: 1.4em;
     line-height: 0.8em;
 }
 
 .fa-caret-right:before {
     content: "\f0d9";
-    color: #24dceaff;
+    color: #fcc02eff;
     font-size: 1.4em;
     line-height: 0.8em;
 }
@@ -484,7 +525,7 @@ body.view-in-course .static_tab_wrapper {
 .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
 .xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
 .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
-    border-bottom: 3px solid #24DCEA;
+    border-bottom: 3px solid #fcc02e;
     padding-top: 2px;
 }
 
@@ -494,8 +535,8 @@ body.view-in-course .static_tab_wrapper {
 .btn-brand,
 .modal .inner-wrapper form .submit input[type="submit"],
 .leanModal_box .inner-wrapper form .submit input[type="submit"] {
-    border-color: #24DCEA;
-    background: #24DCEA;
+    border-color: #fcc02e;
+    background: #fcc02e;
     color: #00517d;
 }
 
@@ -534,7 +575,7 @@ body.view-in-course .static_tab_wrapper {
 
 .progress-barscrollIndicator {
     height: 10px;
-    background: #24DCEA;
+    background: #fcc02e;
     width: 0%;
 }
 
@@ -550,7 +591,7 @@ body.view-in-course .static_tab_wrapper {
     -moz-animation: pulse 3s infinite;
     -o-animation: pulse 3s infinite;
     animation: pulse 3s infinite;
-    background-color: #24DCEA !important;
+    background-color: #fcc02e !important;
 }
 
 
@@ -562,7 +603,7 @@ body.view-in-course .static_tab_wrapper {
         opacity: 1;
     }
     40% {
-        box-shadow: 0 0 0 0 #24ddeada;
+        box-shadow: 0 0 0 0 rgba(252, 194, 46, 0.863);
     }
     70% {
         box-shadow: 0 0 0 8px #24ddea00;
@@ -578,7 +619,7 @@ body.view-in-course .static_tab_wrapper {
         opacity: 1;
     }
     30% {
-        box-shadow: 0 0 0 0 #24ddeada;
+        box-shadow: 0 0 0 0 rgba(252, 194, 46, 0.849);
     }
     70% {
         box-shadow: 0 0 0 8px #24ddea00;
