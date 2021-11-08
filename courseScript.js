@@ -105,7 +105,7 @@ function scrollIndicator() {
     document.getElementById("scrollIndicatorBar").style.width = scrolled + "%";
 }
 
-console.log("hello");
+console.log("helllo");
 
 
 /*     if ($('.choicegroup.capa_inputtype .field-input[type="radio"]').prop("checked")) {
