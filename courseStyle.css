@@ -664,3 +664,13 @@ body.view-in-course .static_tab_wrapper {
         box-shadow: 0 0 0 8px #eae72400;
     }
 }
+
+
+/* DRAG AND DROP */
+
+.xblock--drag-and-drop {
+    width: auto;
+    max-width: 100%; 
+    margin: 0;
+    padding: 0;
+}
