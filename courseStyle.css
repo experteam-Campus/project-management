@@ -678,3 +678,12 @@ body.view-in-course .static_tab_wrapper {
 .xblock--drag-and-drop .drag-container .option{
     padding: 0px !important;
 }
+.xblock--drag-and-drop .drag-container .option.specified-width img {
+    width: 90%;
+}
+
+.course-wrapper .course-content .xblock, .course-wrapper .courseware-results-wrapper .xblock {
+    overflow-wrap: inherit;
+    word-wrap: inherit;
+    word-break: inherit;
+}
