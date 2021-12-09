@@ -186,9 +186,38 @@ a,
     border-width: 0 0 1px 1px
 } */
 
+/* MAIN TEXT HEADLINE */
+.maintextHeadline{
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: #142657;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline;
+    z-index: 1;
+    background: linear-gradient( 
+90deg, rgba(254, 218, 44, 1) 0%, rgba(252, 192, 46, 1) 100%);
+}
+
+.maintextHeadline:before {
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -3px;
+    left: 1px;
+    transform: rotate(2.5deg);
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
+}
 
 /* VIDEO AND REGULAR TEXT HEADLINE */
-
 .textHeadline,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2,
 .discussion-module-title {
