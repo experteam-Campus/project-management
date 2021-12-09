@@ -218,7 +218,7 @@ a,
 }
 
 /* VIDEO AND REGULAR TEXT HEADLINE */
-.textHeadline,
+.textHeadline,.textHeadlineNoLine,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2,
 .discussion-module-title {
     font-size: 1.5em !important;
@@ -235,9 +235,9 @@ a,
     z-index: 1;
 }
 
-.textHeadline {
+/* .textHeadline {
     top: -25px
-}
+} */
 
 .textHeadline:before,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2::before,
@@ -339,7 +339,9 @@ body.view-in-course .static_tab_wrapper {
 
 /* HTML TEXT DIV */
 
-.textDiv {}
+.textDiv {
+    margin: 28px 10px 50px 10px;
+}
 
 
 /* CENTER EVERY IMG INSIDE textDiv */
