@@ -201,9 +201,19 @@ div.panel3 {
 div.panel.show {
     opacity: 1;
     max-height: max-content;
+    padding-top: 10px;
+    padding-bottom: 15px;
     width: 100%;
     background-color: white;
     line-height: 150%;
+    border: 2px solid black;
+    border-top: 2px solid #142654;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.30);
 }
 
 div.panel1.show {
@@ -223,7 +233,7 @@ div.panel2.show {
     background-color: white;
     line-height: 150%;
     border: 2px solid black;
-    border-top: 2px solid #FA3694;
+    border-top: 2px solid #142654;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     position: relative;
@@ -271,7 +281,7 @@ div.panel3.show {
 }
 
 .accplus {
-    color: #F93694;
+    color: #142654;
     float: left;
     font-size: 17pt !important;
     margin-left: 5%;
