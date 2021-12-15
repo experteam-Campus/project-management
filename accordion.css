@@ -1,0 +1,273 @@
+/* @import url('https://fonts.googleapis.com/css?family=Assistant');
+p,
+div,
+ul,
+lable,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+span {
+    font-family: 'Assistant', sans-serif;
+    direction: rtl;
+} */
+
+.tableout {
+    border: solid 0px black !important;
+    width: 100%;
+    height: 98px;
+}
+
+.tableout tr {
+    border: solid 0px black !important;
+    padding: 0px 20px;
+}
+
+.tableout tr td {
+    border: solid 0px black !important;
+    padding: 0px 20px;
+}
+
+.tablein {
+    border-collapse: separate;
+    border-spacing: 10px;
+    text-align: center;
+}
+
+.tdin {
+    background-color: #ffffff;
+    font-size: 16px;
+    border-color: transparent;
+    padding: 3%;
+}
+
+table tr:hover {
+    background-color: #fff !important;
+}
+
+.acc-container {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.acc-container>img {
+    z-index: 3;
+    position: absolute;
+    left: 17%;
+    top: 45%;
+    height: 15px;
+}
+
+.arrowImg {
+    width: 15px;
+    background-image: url(https://courses.campus.gov.il/asset-v1:TAU+ACD_RFP4_TAU_math101+2020_1+type@asset+block@Artboard_22-8.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    z-index: 5;
+    position: absolute;
+    left: 16%;
+    top: 45%;
+    height: 20px;
+}
+
+.accordion1 {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 18px 5px 5px;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 14pt !important;
+    transition: 0.4s;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    border: black solid 2px;
+    border-radius: 15px;
+    line-height: 2.8em !important;
+}
+
+.accordion2 {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 18px 5px 5px;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 14pt !important;
+    transition: 0.4s;
+    margin-top: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    border: black solid 2px;
+    border-radius: 15px;
+    line-height: 2.8em !important;
+}
+
+.accordion1.active,
+.accordion1:hover {
+    background-color: #F9DE32;
+    color: black;
+    border: #F93694 solid 2px;
+}
+
+.accordion2.active,
+.accordion2:hover {
+    background-color: #F9DE32;
+    color: black;
+    border: #F93694 solid 2px;
+}
+
+.accordion2.active .arrowImg {
+    width: 15px;
+    background-image: url(https://courses.campus.gov.il/asset-v1:TAU+ACD_RFP4_TAU_math101+2020_1+type@asset+block@Artboard_21-8.png);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    z-index: 5;
+    position: absolute;
+    left: 16%;
+    top: 45%;
+    height: 20px;
+}
+
+div.panel1 {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    width: 100%;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel2 {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    width: 100%;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel3 {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    width: 100%;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel1.show {
+    opacity: 1;
+    max-height: max-content;
+    width: 100%;
+    background-color: white;
+    line-height: 150%;
+}
+
+div.panel2.show {
+    opacity: 1;
+    max-height: max-content;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: white;
+    line-height: 150%;
+    border: 2px solid black;
+    border-top: 2px solid #FA3694;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.30);
+}
+
+div.panel3.show {
+    opacity: 1;
+    max-height: max-content;
+    padding-top: 10px;
+    width: 100%;
+    background-color: #e6f1f2;
+    line-height: 150%;
+}
+
+.acc-inner {
+    width: 100%;
+}
+
+.changeall {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: #F9DE32;
+    padding-top: 0px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 18pt;
+    transition: 0.4s;
+    -webkit-border-radius: 40px 40px 40px 40px;
+    border-radius: 40px 40px 40px 40px;
+    -webkit-box-shadow: 7px 7px 20px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 7px 7px 20px 1px rgba(0, 0, 0, 0.3);
+}
+
+.changeall:hover {
+    background-color: black;
+    color: white;
+}
+
+.accplus {
+    color: #F93694;
+    float: left;
+    font-size: 17pt !important;
+    margin-left: 5%;
+    position: relative;
+    top: -5px;
+    height: 10px;
+    line-height: 2.8em !important;
+}
+
+@media print {
+    .course-index {
+        display: none;
+    }
+    .page-header {
+        display: none;
+    }
+    .bookmark-button-wrapper {
+        display: none;
+    }
+    .unit-title {
+        display: none;
+    }
+    .footer-main {
+        display: none;
+    }
+    .panel-body {
+        float: none;
+    }
+    .accordion .collapsed {
+        height: auto;
+    }
+    body {
+        color: white;
+    }
+    a.button.wide {
+        display: none;
+    }
+}
