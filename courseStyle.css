@@ -186,8 +186,10 @@ a,
     border-width: 0 0 1px 1px
 } */
 
+
 /* MAIN TEXT HEADLINE */
-.maintextHeadline{
+
+.maintextHeadline {
     font-size: 1.8em !important;
     position: relative;
     width: fit-content;
@@ -199,8 +201,7 @@ a,
     border-radius: 10px;
     display: inline;
     z-index: 1;
-    background: linear-gradient( 
-90deg, rgba(254, 218, 44, 1) 0%, rgba(252, 192, 46, 1) 100%);
+    background: linear-gradient( 90deg, rgba(254, 218, 44, 1) 0%, rgba(252, 192, 46, 1) 100%);
 }
 
 .maintextHeadline:before {
@@ -217,8 +218,11 @@ a,
     box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
 }
 
+
 /* VIDEO AND REGULAR TEXT HEADLINE */
-.textHeadline,.textHeadlineNoLine,
+
+.textHeadline,
+.textHeadlineNoLine,
 .xmodule_display.xmodule_VideoModule h3.hd.hd-2,
 .discussion-module-title {
     font-size: 1.5em !important;
@@ -228,12 +232,13 @@ a,
     padding: 6px 14px;
     font-weight: 700;
     background-color: #142654;
-    color: white;
+    color: white !important;
     margin-top: -47px;
     border-radius: 10px;
     display: inline;
     z-index: 1;
 }
+
 
 /* .textHeadline {
     top: -25px
@@ -670,19 +675,21 @@ body.view-in-course .static_tab_wrapper {
 
 .xblock--drag-and-drop {
     width: auto;
-    max-width: 100%; 
+    max-width: 100%;
     margin: 0;
     padding: 0;
 }
 
-.xblock--drag-and-drop .drag-container .option{
+.xblock--drag-and-drop .drag-container .option {
     padding: 0px !important;
 }
+
 .xblock--drag-and-drop .drag-container .option.specified-width img {
     width: 90%;
 }
 
-.course-wrapper .course-content .xblock, .course-wrapper .courseware-results-wrapper .xblock {
+.course-wrapper .course-content .xblock,
+.course-wrapper .courseware-results-wrapper .xblock {
     overflow-wrap: inherit;
     word-wrap: inherit;
     word-break: inherit;

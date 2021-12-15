@@ -58,7 +58,7 @@ table tr:hover {
 
 .accordion {
     background-color: white;
-    color: black;
+    color: #142654;
     font-weight: bold;
     cursor: pointer;
     padding: 5px 18px 5px 5px;
@@ -70,14 +70,14 @@ table tr:hover {
     transition: 0.4s;
     margin-top: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
-    border: black solid 2px;
+    border: #142654 solid 2px;
     border-radius: 15px;
     line-height: 2.8em !important;
 }
 
 .accordion1 {
     background-color: white;
-    color: black;
+    color: #142654;
     font-weight: bold;
     cursor: pointer;
     padding: 5px 18px 5px 5px;
@@ -89,14 +89,14 @@ table tr:hover {
     transition: 0.4s;
     margin-top: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
-    border: black solid 2px;
+    border: #142654 solid 2px;
     border-radius: 15px;
     line-height: 2.8em !important;
 }
 
 .accordion2 {
     background-color: white;
-    color: black;
+    color: #142654;
     font-weight: bold;
     cursor: pointer;
     padding: 5px 18px 5px 5px;
@@ -108,30 +108,30 @@ table tr:hover {
     transition: 0.4s;
     margin-top: 10px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
-    border: black solid 2px;
+    border: #142654 solid 2px;
     border-radius: 15px;
     line-height: 2.8em !important;
 }
 
 .accordion1.active,
 .accordion1:hover {
-    background-color: #F9DE32;
+    background-color: #fcc02eff;
     color: black;
-    border: #F93694 solid 2px;
+    border: #142654 solid 2px;
 }
 
 .accordion.active,
 .accordion:hover {
-    background-color: #F9DE32;
+    background-color: #fcc02eff;
     color: black;
-    border: #F93694 solid 2px;
+    border: #142654 solid 2px;
 }
 
 .accordion2.active,
 .accordion2:hover {
-    background-color: #F9DE32;
+    background-color: #fcc02eff;
     color: black;
-    border: #F93694 solid 2px;
+    border: #142654 solid 2px;
 }
 
 .accordion.active .arrowImg {
