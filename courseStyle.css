@@ -230,13 +230,14 @@ a,
     width: fit-content;
     font-family: 'Assistant', sans-serif;
     padding: 6px 14px;
-    font-weight: 700;
+    font-weight: 400;
     background-color: #142654;
     color: white !important;
     margin-top: -47px;
     border-radius: 10px;
-    display: inline;
+    display: inline-block;
     z-index: 1;
+    margin-bottom: 20px;
 }
 
 
