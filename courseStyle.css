@@ -833,3 +833,12 @@ body.view-in-course .static_tab_wrapper {
     display: inline-block;
     margin-top: 4px;
 }
+
+
+/* RIGHT MENU */
+
+span.group-heading.active {
+    background-color: #142654;
+    color: white !important;
+    border-radius: 10px;
+}
