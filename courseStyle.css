@@ -571,7 +571,7 @@ body.view-in-course .static_tab_wrapper {
 .xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
 .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
     border-bottom: 3px solid #fcc02e;
-    padding-top: 2px;
+    padding-top: 0px !important;
 }
 
 
