@@ -696,6 +696,12 @@ body.view-in-course .static_tab_wrapper {
     word-break: inherit;
 }
 
+.xblock--drag-and-drop .btn-brand {
+    border-color: #fcc02e;
+    background: #fcc02e;
+    color: #00517d;
+}
+
 
 /* TABLES */
 
