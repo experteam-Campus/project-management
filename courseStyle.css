@@ -889,3 +889,13 @@ span.group-heading.active {
     margin-right: -61px;
     margin-left: 20px;
 }
+
+.trueAns ol li,
+.falseAns ol li {
+    margin-right: 25px;
+}
+
+.trueAns p,
+.falseAns p {
+    margin-right: 30px;
+}
