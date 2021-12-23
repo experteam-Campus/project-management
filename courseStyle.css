@@ -695,3 +695,15 @@ body.view-in-course .static_tab_wrapper {
     word-wrap: inherit;
     word-break: inherit;
 }
+
+
+/* TABLES */
+
+.xmodule_display.xmodule_HtmlModule table td,
+.xmodule_display.xmodule_HtmlModule table th {
+    margin: 20px 0;
+    padding: 9px;
+    border: 1px solid #c8c8c8;
+    font-size: 14px;
+    vertical-align: middle;
+}
