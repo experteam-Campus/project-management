@@ -905,3 +905,39 @@ span.group-heading.active {
 .falseAns p {
     margin-right: 30px;
 }
+
+
+/* TO DO LIST */
+
+.toDoListDiv {
+    padding: 25px 10px 10px 10px;
+    margin-bottom: 40px;
+    margin-top: -40px;
+    margin-right: -29px;
+    background: #fff;
+    border: solid #142654;
+    border-color: #142654;
+}
+
+.box2 {
+    width: 90%;
+    border-width: 3px 3px 5px 5px;
+    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+    transform: rotate(-2deg);
+}
+
+.toDoListDiv img {
+    float: right;
+    margin-left: 10px;
+    width: 7%;
+}
+
+.boxinner {
+    margin: 17px;
+    transform: rotate(2deg);
+    padding-bottom: 5px;
+}
+
+.boxinner hr {
+    margin: 17px 65px;
+}
