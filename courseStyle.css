@@ -591,7 +591,7 @@ body.view-in-course .static_tab_wrapper {
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
     position: relative;
     display: block;
-    padding: 18px 10px 1px 10px;
+    padding: 10px 10px 10px 10px;
     border-radius: 5px;
     font-family: 'Assistant', sans-serif;
     color: #142654;
@@ -601,7 +601,7 @@ body.view-in-course .static_tab_wrapper {
 .proctored_exam_status .exam-timer .exam-button-turn-in-exam,
 .course-index .accordion .course-navigation .chapter-content-container .chapter-menu .menu-item a {
     font-size: 1em;
-    line-height: 0em;
+    line-height: 1em;
 }
 
 .course-index .accordion .course-navigation .button-chapter {
