@@ -1,7 +1,20 @@
 $(document).ready(function() {
-            /* QUESTIONS CHOOSE CHANE COLOR */
-            /* 
 
+    window.onscroll = function() { scrollIndicator() };
+
+    function scrollIndicator() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("scrollIndicatorBar").style.width = scrolled + "%";
+    }
+
+    /* console.log("helllo");
+     */
+});
+/* QUESTIONS CHOOSE CHANE COLOR */
+
+/* 
             $('.choicegroup.capa_inputtype .field-input[type="radio"]').change(function() {
 
                 if ($(this).prop("checked")) {
@@ -69,13 +82,12 @@ $(document).ready(function() {
 
 
 
-             */
-
-            /* -------------------------------------------------------- */
+           
 
 
 
-            /* var slideIndex = 1;
+
+            var slideIndex = 1;
             showSlides(slideIndex);
             function plusSlides(n) {
             showSlides(slideIndex += n);
@@ -100,34 +112,6 @@ $(document).ready(function() {
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
             captionText.innerHTML = dots[slideIndex - 1].alt;
-            } */
+            } 
 
-            window.onscroll = function() { scrollIndicator() };
-
-            function scrollIndicator() {
-                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-                var scrolled = (winScroll / height) * 100;
-                document.getElementById("scrollIndicatorBar").style.width = scrolled + "%";
-            }
-
-            console.log("helllo");
-
-
-            /*     if ($('.choicegroup.capa_inputtype .field-input[type="radio"]').prop("checked")) {
-                   console.log("radio checked")
-                   $(this).parent().css({
-                       "background-color": "#24DCEA",
-                       "border": "2px solid #00517D",
-                       "color": "black",
-                   })
-               }
-               if ($('.xmodule_display.xmodule_CapaModule div.problem .choicegroup input[type="checkbox"]').prop("checked")) {
-                   console.log("checkbox checked")
-                   $(this).parent().css({
-                       "background-color": "#24DCEA",
-                       "border": "2px solid #00517D",
-                       "color": "black",
-                   })
-               }
-            */
+ */
