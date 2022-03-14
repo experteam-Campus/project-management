@@ -136,7 +136,7 @@ a,
     font-weight: 700;
     color: #142654;
     background: linear-gradient(90deg, rgba(254, 218, 44, 1) 0%, rgba(252, 192, 46, 1) 100%);
-    height: 80px;
+    height: 60px;
     padding-top: 15px;
     border-radius: 20px;
 }
@@ -960,4 +960,73 @@ span.group-heading.active {
 .xmodule_display.xmodule_ProblemBlock div.problem .choicegroup input:checked+label {
     background-color: #fcc02eff;
     border: 2px solid #142654;
+}
+
+
+/* QUESTION LABELS PADDING */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup label {
+    padding-right: 50px;
+}
+
+
+/* QUESTION SEND, SAVE & VIEW ANSWER BUTTONS */
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action {
+    min-height: 20px;
+    width: 100%;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-btn {
+    margin-left: 4px;
+    max-width: 110px;
+    text-decoration: none;
+    text-transform: none;
+    border: 1px solid;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .submission-feedback {
+    display: block;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .submit-attempt-container .submit {
+    margin-left: 10px;
+    display: inline-block;
+    white-space: nowrap;
+    float: none;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .action .problem-action-buttons-wrapper {
+    display: inline-block;
+    justify-content: flex-end;
+    width: unset;
+    padding-bottom: 20px;
+    float: left !important;
+}
+
+
+
+body .course-content .bookmark-button-wrapper .bookmark-button {
+    color: #072d3f;
+    font-size: 16px;
+    font-weight: 600;
+    float: left;
+    position: relative;
+    bottom: 55px;
+    left: 16px;
+}
+
+/* TOP NAV */
+
+body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+    border-color: #142654;
+}
+
+.xblock.xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover {
+    color: #142654 !IMPORTANT;
+    border-bottom: #142654 3px solid !important;
 }
