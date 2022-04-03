@@ -230,7 +230,7 @@ a,
 
 .textHeadline,
 .textHeadlineNoLine,
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2,
+ h3.hd.hd-2,
 .discussion-module-title {
     font-size: 1.5em !important;
     position: relative;
@@ -253,7 +253,7 @@ a,
 } */
 
 .textHeadline:before,
-.xmodule_display.xmodule_VideoModule h3.hd.hd-2::before,
+ h3.hd.hd-2::before,
 .discussion-module-title:before {
     border: 2px solid #fcc02eff;
     border-radius: 7px;
