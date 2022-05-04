@@ -1053,10 +1053,7 @@ body .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
 
 /* ------------ THIS PART MAKE THE STICKY MENU --------------*/
 /* --------------------- STARTS HERE -------------------- */
-nav.course-navigation {
-    MARGIN-TOP: 20PX;
-    PADDING-TOP: 3PX;
-} 
+
 
 #content > div.container{
     background-color: #f5f5f5;
@@ -1217,3 +1214,8 @@ nav.course-navigation {
     }
 
 /* --------------------- ENDS HERE -------------------- */
+
+nav.course-navigation {
+    margin-top: 20px !important;
+    padding-top: 3px !important;
+} 
