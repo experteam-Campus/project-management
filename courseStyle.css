@@ -883,12 +883,12 @@ span.group-heading.active {
     margin-bottom: 20px;
 }
 
-.trueAnsImg {
+img.trueAnsImg {
     width: 13%;
     position: relative;
     float: right;
     bottom: 52px;
-    margin-right: -61px;
+    margin-right: -6%;
    
 }
 
@@ -906,12 +906,12 @@ span.group-heading.active {
     margin-bottom: 20px;
 }
 
-.falseAnsImg {
+img.falseAnsImg {
     width: 13%;
     position: relative;
     float: right;
     bottom: 52px;
-    margin-right: -61px;
+    margin-right: -6%;
 
 }
 
@@ -922,7 +922,7 @@ span.group-heading.active {
 
 .trueAns p,
 .falseAns p {
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 
