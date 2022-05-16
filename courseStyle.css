@@ -954,6 +954,26 @@ img.falseAnsImg {
     padding-right: 15%;
 }
 
+/* PROBLEM TABLE */
+.xmodule_display.xmodule_ProblemBlock div.problem table tr, .xmodule_display.xmodule_ProblemBlock div.problem table td, .xmodule_display.xmodule_ProblemBlock div.problem table th {
+    vertical-align: middle;
+    direction: rtl !important;
+    text-align: right;
+}
+
+.problem select:not(.forum-nav-filter-main-control):not(.forum-nav-sort-control):not(.forum-nav-filter-cohort-control), .problem .forum-new-post-form .post-field .field-label .field-input select.post-topic {
+    font-size: 15px;
+    padding: 10px 5px 10px 20px !important;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem table tr, .xmodule_display.xmodule_ProblemBlock div.problem table td, .xmodule_display.xmodule_ProblemBlock div.problem table th {
+    vertical-align: middle;
+    direction: rtl !important;
+    text-align: right;
+    border: 2px solid #142654;
+    padding: 5px;
+}
+
 
 /* TO DO LIST */
 
