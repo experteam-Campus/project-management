@@ -891,7 +891,9 @@ img.generalAnsImg {
    
 }
 
-
+.generalAns p {
+    padding-right: 15%;
+}
 
 /* CORRECT ANSWER */
 
@@ -913,6 +915,10 @@ img.trueAnsImg {
     bottom: 52px;
     margin-right: -6%;
    
+}
+
+.trueAns p {
+    padding-right: 15%;
 }
 
 
@@ -938,14 +944,14 @@ img.falseAnsImg {
 
 }
 
+.generalAns ol li,
 .trueAns ol li,
 .falseAns ol li {
     margin-right: 25px;
 }
 
-.trueAns p,
 .falseAns p {
-    margin-right: 60px;
+    padding-right: 15%;
 }
 
 
