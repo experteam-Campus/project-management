@@ -875,7 +875,7 @@ span.group-heading.active {
 }
 
 .solution-span span {
-    margin: 40px 0;
+    margin: 40px 0 !important;
 }
 
 /* GENERAL ANSWER*/
