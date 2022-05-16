@@ -870,6 +870,14 @@ span.group-heading.active {
     content: "";
 }
 
+.detailed-solution p {
+    margin-bottom: 0 !important;
+}
+
+.solution-span span {
+    margin: 40px 0;
+}
+
 /* GENERAL ANSWER*/
 .generalAns {
     border: 2px solid #142653;
