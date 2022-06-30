@@ -977,8 +977,8 @@ img.falseAnsImg {
 .xmodule_display.xmodule_ProblemBlock div.problem table tr, 
 .xmodule_display.xmodule_ProblemBlock div.problem table td, 
 .xmodule_display.xmodule_ProblemBlock div.problem table th,
-.textDiv table td,
-.textDiv table th {
+.xmodule_display.xmodule_HtmlBlock table td, 
+.xmodule_display.xmodule_HtmlBlock table th {
     vertical-align: middle;
     direction: rtl !important;
     text-align: right;
