@@ -989,12 +989,18 @@ img.falseAnsImg {
     background: #142654 !important;
     font-weight: bold;
     color: white !important;
-    border: 2px solid white !important;
+    border-right: 2px solid white !important;
+    border-top: 2px solid #142654 !important;
 }
 
-.xmodule_display.xmodule_HtmlBlock th:first-child,
+.xmodule_display.xmodule_HtmlBlock th:first-child{
+    border: 2px solid #142654 !important;
+    border-left: 2px solid white !important;
+}
+
 .xmodule_display.xmodule_HtmlBlock th:last-child {
     border: 2px solid #142654 !important;
+    border-right: 2px solid white !important;
 }
 
 
