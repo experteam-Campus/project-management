@@ -356,6 +356,12 @@ body.view-in-course .static_tab_wrapper {
     margin: 28px 10px 50px 10px;
 }
 
+.textDiv.greyBG {
+    background-color: #e7e6e6;
+    padding: 15px 15px 1px 15px;
+    border-radius: 12px;
+}
+
 
 /* CENTER EVERY IMG INSIDE textDiv */
 
