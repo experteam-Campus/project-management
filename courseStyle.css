@@ -982,8 +982,20 @@ img.falseAnsImg {
     vertical-align: middle;
     direction: rtl !important;
     text-align: right;
-    border: 2px solid #142654;
+    border: 2px solid #142654 !important;
     padding: 5px;
+}
+
+.xmodule_display.xmodule_HtmlBlock th {
+    background: #142654 !important;
+    font-weight: bold;
+    color: white !important;
+    border: 2px solid white !important;
+}
+
+.xmodule_display.xmodule_HtmlBlock th:first-child,
+.xmodule_display.xmodule_HtmlBlock th:last-child {
+    border: 2px solid #142654 !important;
 }
 
 
