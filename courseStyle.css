@@ -362,6 +362,29 @@ body.view-in-course .static_tab_wrapper {
     border-radius: 12px;
 }
 
+.textDiv.WWL {
+    background-color: #dde8ff;
+    padding: 17px;
+    border-radius: 15px;
+}
+
+.textDiv.WWL h4 {
+    font-size: 2em;
+    background-color: white;
+    width: fit-content;
+    padding: 5px 15px 5px 20px;
+    /* padding-left: 15px; */
+    border-radius: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+
+
+
+
+
 
 /* CENTER EVERY IMG INSIDE textDiv */
 
@@ -1016,7 +1039,7 @@ img.falseAnsImg {
     padding: 25px 10px 10px 10px;
     margin-bottom: 40px;
     margin-top: -40px;
-    margin-right: -20px;
+    margin-right: -10px;
     background: #fff;
     border: solid #142654;
     border-color: #142654;
