@@ -364,21 +364,28 @@ body.view-in-course .static_tab_wrapper {
 
 .textDiv.WWL {
     background-color: #dde8ff;
-    padding: 17px;
+    padding: 3em 6em;
     border-radius: 15px;
 }
 
 .textDiv.WWL h4 {
-    font-size: 2em;
+    font-size: 1.8em;
     background-color: white;
-    width: fit-content;
-    padding: 5px 15px 5px 20px;
-    /* padding-left: 15px; */
+    width: 5em;
+    padding: 5px 20px;
     border-radius: 40px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    margin-right: -0.7em;
+    margin-block-end: 3vw;
 }
 
+img.WWLIMG {
+    float: right;
+    margin-right: -5em !important;
+    width: 5em;
+    margin-top: -3%;
+}
 
 
 
