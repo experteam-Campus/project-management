@@ -354,7 +354,7 @@ a,
     background: #142657;
 }
 
-.hd.hd-3:before {
+/* .hd.hd-3:before {
     position: absolute;
     content: "";
     width: 101%;
@@ -366,7 +366,7 @@ a,
     box-shadow: 0px 0px 15px 1px rgb(0 0 0 / 12%);
     border: 2px solid #fcc02eff;
     border-radius: 7px;
-}
+} */
 
 .tirgulHeadline {
     font-size: 1.8em !important;
