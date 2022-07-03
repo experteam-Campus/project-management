@@ -431,7 +431,7 @@ body.view-in-course .static_tab_wrapper {
 .textDiv.WWL h4 {
     font-size: 1.8em;
     background-color: white;
-    width: 5em;
+    width: fit-content;
     padding: 5px 20px;
     border-radius: 40px;
     border-top-right-radius: 0;
