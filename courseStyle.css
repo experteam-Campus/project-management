@@ -466,6 +466,10 @@ body.view-in-course .static_tab_wrapper {
     color: white;
     text-shadow: none;
     box-shadow: none;
+    font-size: 1.1em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
 
 .textDiv a button:hover {
