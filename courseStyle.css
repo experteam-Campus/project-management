@@ -467,7 +467,7 @@ body.view-in-course .static_tab_wrapper {
     background-color: white;
 }
 
-.textDiv a button {
+.textDiv button {
     border-radius: 0.5em;
     background-color: #142654;
     border: 1px solid #142654;
@@ -480,7 +480,7 @@ body.view-in-course .static_tab_wrapper {
     display: block;
 }
 
-.textDiv a button:hover: {
+.textDiv button:hover {
     border: 1px solid #142654;
     background: #142654 !important;
     box-shadow: none;
@@ -488,7 +488,7 @@ body.view-in-course .static_tab_wrapper {
     -webkit-appearance: none;
 }
 
-.textDiv a button:hover::before {
+.textDiv button:hover::before {
     border: 2px solid #fcc02eff;
     border-radius: 7px;
     position: absolute;
