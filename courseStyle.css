@@ -446,11 +446,13 @@ body.view-in-course .static_tab_wrapper {
     float: right;
     margin-right: -5em !important;
     width: 5em;
-    margin-top: -3%;
+    margin-top: -2.5%;
 }
 
 .textDiv.WWL.winningTip h4 {
-    border: 2px solid #84a3e3;
+    border: 3px solid #4d7cdb;
+    color: #4d7cdb;
+    font-size: 1.6em;
 }
 
 .textDiv.WWL.winningTip {
