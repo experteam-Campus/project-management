@@ -449,9 +449,13 @@ body.view-in-course .static_tab_wrapper {
     margin-top: -3%;
 }
 
+.textDiv.WWL.winningTip h4 {
+    border: 2px solid #84a3e3;
+}
 
-
-
+.textDiv.WWL.winningTip {
+    background-color: white;
+}
 
 
 
