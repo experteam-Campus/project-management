@@ -437,6 +437,14 @@ body.view-in-course .static_tab_wrapper {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     margin-right: -0.7em;
+    font-size: 1.8em;
+    background-color: white;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: -0.7em;
     margin-block-end: 3vw;
     color: #142654;
     font-weight: bold;
@@ -474,17 +482,6 @@ body.view-in-course .static_tab_wrapper {
 
 .textDiv a button:hover {
     border: 2px solid #fcc02eff;
-    border-radius: 7px;
-    position: absolute;
-    content: "";
-    width: 101%;
-    height: 100%;
-    top: -3px;
-    left: 1px;
-    transform: rotate(2.5deg);
-    z-index: 0;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
-    transition: all 0.2s;
 }
 
 
