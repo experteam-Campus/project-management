@@ -480,10 +480,27 @@ body.view-in-course .static_tab_wrapper {
     display: block;
 }
 
-.textDiv a button:hover {
-    border: 2px solid #fcc02eff;
+.textDiv a button:hover: {
+    border: 1px solid #142654;
+    background: #142654 !important;
+    box-shadow: none;
+    text-shadow: none;
+    -webkit-appearance: none;
 }
 
+.textDiv a button:hover::before {
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -3px;
+    left: 1px;
+    transform: rotate(2.5deg);
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
+}
 
 
 /* CENTER EVERY IMG INSIDE textDiv */
