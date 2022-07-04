@@ -654,6 +654,12 @@ body.view-in-course .static_tab_wrapper {
     border: none !important;
 }
 
+.xmodule_display.xmodule_ProblemBlock div.problem .question-description {
+    color: #000;
+    font-size: 100%;
+    display: inline;
+    padding-left: 1%;
+}
 
 /* problems color in studio */
 
