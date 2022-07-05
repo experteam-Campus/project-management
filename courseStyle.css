@@ -864,6 +864,33 @@ body.view-in-course .static_tab_wrapper {
     color: #00517d;
 }
 
+.xblock--drag-and-drop .popup {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    border: 1px solid #008100;
+    background-color: rgb(0 129 0 / 100%);
+    width: 500px;
+    max-width: 90%;
+    min-height: 50px;
+    max-height: 90%;
+    overflow-y: auto;
+    z-index: 100;
+    /* color: white; */
+    border-radius: 15px;
+}
+
+.popup-content p {
+    color: white;
+    font-weight: bold;
+}
+
+.xblock--drag-and-drop .popup.popup-incorrect {
+    background-color: #ad0d0d;
+    border: 1px solid #ad0d0d;
+}
+
+
 
 /* TABLES */
 
@@ -875,7 +902,6 @@ body.view-in-course .static_tab_wrapper {
     font-size: 14px;
     vertical-align: middle;
 }
-
 
 /*top navigation*/
 
