@@ -890,6 +890,20 @@ body.view-in-course .static_tab_wrapper {
     border: 1px solid #ad0d0d;
 }
 
+.xblock--drag-and-drop .problem-title {
+    font-size: 1.8em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline;
+    z-index: 1;
+    background: #142657;
+}
 
 
 /* TABLES */
