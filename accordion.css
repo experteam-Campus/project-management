@@ -131,11 +131,11 @@ div.panel1 {
 }
 
 div.panel2 {
-    padding: 0 18px;
+    padding: 0px 18px 0px 0px;
+    width: 55vw !important;
     background-color: white;
     max-height: 0;
     overflow: hidden;
-    width: 100%;
     transition: 0.6s ease-in-out;
     opacity: 0;
 }
@@ -181,7 +181,7 @@ div.panel2.show {
     max-height: max-content;
     padding-top: 10px;
     padding-bottom: 15px;
-    width: 100%;
+    width: 55vw;
     background-color: white;
     line-height: 150%;
     border: 2px solid #142654;
