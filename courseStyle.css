@@ -79,6 +79,11 @@ a,
     border-left: none;
 }
 
+.xmodule_display.xmodule_ProblemBlock div.problem-progress {
+    display: none;
+}
+
+
 
 /* PADDING, MARGIN AND LINES BETWEEN COMPONENTS */
 
