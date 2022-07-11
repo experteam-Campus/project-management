@@ -83,7 +83,9 @@ a,
     display: none;
 }
 
-
+.xblock--drag-and-drop .problem-progress {
+    display: none;
+}
 
 /* PADDING, MARGIN AND LINES BETWEEN COMPONENTS */
 
