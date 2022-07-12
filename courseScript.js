@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
 
     window.onscroll = function() { scrollIndicator() };
 
@@ -28,7 +28,19 @@ $(document).ready(function() {
     function topFunction() {
         document.body.scrollTop = 0; // For Safari
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }*/
+
+    window.onscroll = function() { scrollIndicator() };
+
+    function scrollIndicator() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("scrollIndicatorBar").style.width = scrolled + "%";
     }
+
+    console.log("helllo");
+
 
 
 
