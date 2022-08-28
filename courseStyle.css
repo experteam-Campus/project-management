@@ -254,6 +254,21 @@ a,
     margin-bottom: 20px;
 }
 
+.ethicRules h4 {
+    margin-top: 25px;
+    position: absolute;
+    margin-right: -10px;
+    padding-right: 20px;
+    z-index: 0 !important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.imageList {
+    width: 100px;
+}
+
+
 
 /* .textHeadline {
     top: -25px
