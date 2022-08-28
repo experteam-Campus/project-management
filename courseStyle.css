@@ -272,6 +272,10 @@ a,
     border-bottom-right-radius: 0;
 }
 
+.ethicRules p {
+    padding: 10px 40px;
+}
+
 .imageList {
     width: 100px;
 }
