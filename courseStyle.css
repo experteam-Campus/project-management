@@ -404,6 +404,36 @@ a,
     border-radius: 7px;
 }
 
+.simple-solution div h3 {
+    font-size: 1.4em !important;
+    position: relative;
+    width: fit-content;
+    font-family: 'Assistant', sans-serif;
+    padding: 6px 14px;
+    font-weight: 700 !important;
+    color: white;
+    margin-top: -47px;
+    border-radius: 10px;
+    display: inline;
+    z-index: 1;
+    background: #142657;
+}
+
+.simple-solution div h3:before {
+    border: 2px solid #fcc02eff;
+    border-radius: 7px;
+    position: absolute;
+    content: "";
+    width: 101%;
+    height: 100%;
+    top: -3px;
+    left: 1px;
+    transform: rotate(2.5deg);
+    z-index: 0;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 15px 1px;
+}
+
+
 
 /* cancel the little shadow on the left */
 
