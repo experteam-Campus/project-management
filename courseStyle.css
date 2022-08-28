@@ -263,9 +263,9 @@ a,
     color: white !important;
     border-radius: 10px;
     display: inline-block;
-    margin-top: 25px;
+    margin-top: 25px !important;
     position: absolute;
-    margin-right: -10px;
+    margin-right: -10px !important;
     padding-right: 20px;
     z-index: 0 !important;
     border-top-right-radius: 0;
