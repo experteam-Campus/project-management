@@ -81,7 +81,7 @@ table tr:hover {
     font-weight: bold;
     cursor: pointer;
     padding: 5px 18px 5px 5px;
-    width: 54.7vw;
+    width: 98%;
     border: none;
     text-align: right;
     outline: none;
@@ -132,7 +132,7 @@ div.panel1 {
 
 div.panel2 {
     padding: 0px 18px 0px 0px;
-    width: 55vw !important;
+    width: 98.5% !important;
     background-color: white;
     max-height: 0;
     overflow: hidden;
@@ -181,7 +181,7 @@ div.panel2.show {
     max-height: max-content;
     padding-top: 10px;
     padding-bottom: 15px;
-    width: 55vw;
+    width: 98.5%;
     background-color: white;
     line-height: 150%;
     border: 2px solid #142654;
