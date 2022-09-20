@@ -1235,7 +1235,6 @@ img.falseAnsImg {
 
 .xmodule_display.xmodule_ProblemBlock div.problem table tr, 
 .xmodule_display.xmodule_ProblemBlock div.problem table td, 
-.xmodule_display.xmodule_ProblemBlock div.problem table th,
 .xmodule_display.xmodule_HtmlBlock table td {
     vertical-align: middle;
     direction: rtl !important;
