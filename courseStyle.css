@@ -1244,7 +1244,7 @@ img.falseAnsImg {
     padding: 5px;
 }
 
-.xmodule_display.xmodule_HtmlBlock th {
+.xmodule_display.xmodule_HtmlBlock th, .xmodule_display.xmodule_ProblemBlock div.problem table th {
     background: #142654 !important;
     font-weight: bold;
     color: white !important;
@@ -1252,12 +1252,12 @@ img.falseAnsImg {
     border-top: 2px solid #142654 !important;
 }
 
-.xmodule_display.xmodule_HtmlBlock th:first-child{
+.xmodule_display.xmodule_HtmlBlock th:first-child, .xmodule_display.xmodule_ProblemBlock div.problem table th:first-child{
     border: 2px solid #142654 !important;
     border-left: 2px solid white !important;
 }
 
-.xmodule_display.xmodule_HtmlBlock th:last-child {
+.xmodule_display.xmodule_HtmlBlock th:last-child, .xmodule_display.xmodule_ProblemBlock div.problem table th:last-child {
     border: 2px solid #142654 !important;
     border-right: 2px solid white !important;
 }
