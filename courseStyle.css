@@ -6,6 +6,11 @@
     font-family: 'Assistant', sans-serif;
 }
 
+body {
+    font-size: 1.04rem;
+}
+
+
 #main,
 body,
 h1,
