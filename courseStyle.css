@@ -1273,7 +1273,7 @@ img.falseAnsImg {
     padding: 25px 10px 10px 10px;
     margin-bottom: 40px;
     margin-top: -40px;
-    margin-right: -10px;
+    margin-right: 10px;
     background: #fff;
     border: solid #142654;
     border-color: #142654;
@@ -1300,6 +1300,11 @@ img.falseAnsImg {
 
 .boxinner hr {
     margin: 17px 65px;
+}
+
+.boxinner p {
+    padding-right: 9%;
+    padding-left: 2%;
 }
 
 
