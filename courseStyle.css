@@ -689,6 +689,11 @@ body.view-in-course .static_tab_wrapper {
 
 /* problem lables design */
 
+.xmodule_display.xmodule_ProblemBlock div.problem div p.answer::before {
+    display: inline;
+    content: "תשובה: ";
+}
+
 .xmodule_display.xmodule_CapaModule div.problem .choicegroup label {
     padding: 10px;
     padding-right: 38px;
