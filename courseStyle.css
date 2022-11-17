@@ -1292,7 +1292,6 @@ img.falseAnsImg {
     border-width: 3px 3px 5px 5px;
     border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
     transform: rotate(-2deg);*/
-    margin: 28px 10px 50px 10px;
 }
 
 .toDoListDiv img {
@@ -1302,9 +1301,10 @@ img.falseAnsImg {
 }
 
 .boxinner {
-    margin: 17px;
+    /*margin: 17px;
     transform: rotate(2deg);
-    padding-bottom: 5px;
+    padding-bottom: 5px;*/
+    margin: 28px 10px 50px 10px;
 }
 
 .boxinner hr {
