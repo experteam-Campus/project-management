@@ -1282,13 +1282,17 @@ img.falseAnsImg {
     background: #fff;
     border: solid #142654;
     border-color: #142654;
-}
-
-.box2 {
     width: 90%;
     border-width: 3px 3px 5px 5px;
     border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
-    transform: rotate(-2deg);
+}
+
+.box2 {
+    /*width: 90%;
+    border-width: 3px 3px 5px 5px;
+    border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+    transform: rotate(-2deg);*/
+    margin: 28px 10px 50px 10px;
 }
 
 .toDoListDiv img {
