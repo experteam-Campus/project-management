@@ -43,6 +43,11 @@ span,
     padding: 0 0;
 }
 
+/*HIDE GREEN CHECKMARK*/
+.fa-check-circle {
+    display: none !important;
+}
+
 /* P PREFERENCES */
 
 .xmodule_display.xmodule_HtmlModule p {
