@@ -46,10 +46,11 @@ span,
 /*HIDE GREEN CHECKMARK*/
 .fa-check-circle {
     display: none !important;
+    font-size: 0 !important;
 }
 
 .fa-check-circle:before {
-    content: none !important;
+    content: "" !important;
 }
 
 
