@@ -48,6 +48,11 @@ span,
     display: none !important;
 }
 
+.fa-check-circle:before {
+    content: none !important;
+}
+
+
 /* P PREFERENCES */
 
 .xmodule_display.xmodule_HtmlModule p {
