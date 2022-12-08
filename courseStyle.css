@@ -250,6 +250,13 @@ a,
 
 
 /* VIDEO AND REGULAR TEXT HEADLINE */
+ .xmodule_VideoBlock .hd .hd-2{
+
+margin-top:30px;
+}
+
+
+
 
 .textHeadline,
 .textHeadlineNoLine,
