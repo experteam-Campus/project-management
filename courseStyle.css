@@ -1166,13 +1166,13 @@ span.group-heading.active {
 .xmodule_display.xmodule_ProblemBlock div.problem .indicator-container .status.incorrect .status-icon::after {
     color: #b20610;
     font-size: 1.2em;
-    content: "";
+    /*content: "";*/
 }
 
 .xmodule_display.xmodule_ProblemBlock div.problem .indicator-container .status.correct .status-icon::after {
     color: #61a408;
     font-size: 1.2em;
-    content: "";
+    /*content: "";*/
 }
 
 .detailed-solution p {
